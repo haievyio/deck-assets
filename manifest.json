@@ -6,7 +6,9 @@
    "kind": "case-image",
    "alt": "Thankee Jar on a laptop: the team jar filling with thank-you notes",
    "sha256": "5b1dec960c8e27dbd40c14664f7d1947ff1bcea69bfffcbf3df91bfe5a77d8c9",
-   "drive_id": "1XfM3lu-HovNkKahuMS8BlrPLyeR4UVLK"
+   "drive_id": "1XfM3lu-HovNkKahuMS8BlrPLyeR4UVLK",
+   "slot": "case",
+   "good_for": ""
   },
   {
    "key": "hospice-care/phone-orders-kanban.jpg",
@@ -14,7 +16,9 @@
    "kind": "case-image",
    "alt": "Hospice Source ordering app on a phone: orders Kanban board",
    "sha256": "42b413a35b1b9e944865bf9cc3ffd2af5574581d323a9897905759b4f6459893",
-   "drive_id": "1Uzv6z0mNp77q7cP_oA0QkDKsKNjj-BLL"
+   "drive_id": "1Uzv6z0mNp77q7cP_oA0QkDKsKNjj-BLL",
+   "slot": "case",
+   "good_for": ""
   },
   {
    "key": "koddi/macbook-property-page.png",
@@ -22,7 +26,9 @@
    "kind": "case-image",
    "alt": "Koddi property page on a MacBook",
    "sha256": "acfe87945298090803103d9d63bf22d0f19053fcca9821c7451f56b8e4474a91",
-   "drive_id": "11cHt7cL-IzpJucPznQ_tIHgP3bKDYBb-"
+   "drive_id": "11cHt7cL-IzpJucPznQ_tIHgP3bKDYBb-",
+   "slot": "case",
+   "good_for": ""
   },
   {
    "key": "paydownhero/phone-car-loans.jpg",
@@ -30,7 +36,9 @@
    "kind": "case-image",
    "alt": "PayDownHero app on a phone: car loans overview",
    "sha256": "b817de369024dd9da6e87013666e868a7d64c9edadb6226ee488389dbf65cd13",
-   "drive_id": "1uRLUKvpUOM6GGZz9w1Dx9vHGPzmRP9C-"
+   "drive_id": "1uRLUKvpUOM6GGZz9w1Dx9vHGPzmRP9C-",
+   "slot": "case",
+   "good_for": ""
   },
   {
    "key": "r1/iphone-patient-record.png",
@@ -38,7 +46,379 @@
    "kind": "case-image",
    "alt": "RapidOne staff app on an iPhone: patient medical record",
    "sha256": "9008618746303305333f76814f9aed3cfdcf950691214a1eab2f2bce812c513f",
-   "drive_id": "10eZd72lbuAHOZppAGu_2CXtUMSjxYerA"
+   "drive_id": "10eZd72lbuAHOZppAGu_2CXtUMSjxYerA",
+   "slot": "case",
+   "good_for": ""
+  },
+  {
+   "key": "cover-01.jpg",
+   "file": "img/cover-01.jpg",
+   "kind": "photo",
+   "alt": "Digicode engineer with earbuds working at a laptop by a green wall",
+   "sha256": "406363d2ebc0b0489b950fddf70f95299f1956aa46e096633e7b9b18a7194554",
+   "drive_id": "1LNm6Ig-p_0JudwmvqbWoUI-47crp8Nkx",
+   "slot": "cover",
+   "good_for": "engineering and product covers; light on the left: navy text and the blue logo"
+  },
+  {
+   "key": "cover-02.jpg",
+   "file": "img/cover-02.jpg",
+   "kind": "photo",
+   "alt": "Digicode engineer working at a laptop",
+   "sha256": "318beb11f014b4e00b5a22c698973219886d169e333ce2d5488ddc612e6c5574",
+   "drive_id": "18sojrZMj1PqLIBPO4MXNF-NOxJE8_AVb",
+   "slot": "cover",
+   "good_for": "default cover-photo; dark on the left: white text and the white logo"
+  },
+  {
+   "key": "cover-03.jpg",
+   "file": "img/cover-03.jpg",
+   "kind": "photo",
+   "alt": "Digicode engineer sketching a chart on a whiteboard",
+   "sha256": "bcdbef1d6a62ecdd0199786f3f08fedad208e76ee05eb461fd8a2656f955afed",
+   "drive_id": "1A-XbjD-5O-iW4oDQmsumpTezTJuSl-XE",
+   "slot": "cover",
+   "good_for": "discovery, strategy and consulting covers; light on the left: navy text and the blue logo"
+  },
+  {
+   "key": "cover-04.jpg",
+   "file": "img/cover-04.jpg",
+   "kind": "photo",
+   "alt": "Open-plan office with the neon Digicode logo and the mezzanine",
+   "sha256": "7ea4ffc3bcf95e0c7c70210c1262b3be90f741d319d6ca3d79d7c78dbee04c73",
+   "drive_id": "1sAL6yqfLze_nD6ZYXpSTrYXumtoxeFcR",
+   "slot": "cover",
+   "good_for": "company profile and about covers; the office at scale"
+  },
+  {
+   "key": "cover-05.jpg",
+   "file": "img/cover-05.jpg",
+   "kind": "photo",
+   "alt": "Quiet open-plan office aisle with plants, no people",
+   "sha256": "479ea06af671b74676b9ee84b8d6f56bb67425bca2dc244cb9f81fb8642f981b",
+   "drive_id": "19iiO3lVxmV9RbFd0kCjySNOzh6ssSKa9",
+   "slot": "cover",
+   "good_for": "proposal and internal covers that need a calm background; busy plant on the right, calm aisle on the left"
+  },
+  {
+   "key": "cover-06.jpg",
+   "file": "img/cover-06.jpg",
+   "kind": "photo",
+   "alt": "Lit Digicode logo on a dark blue wall",
+   "sha256": "69015c4c684cbca41e66990f9f861da7e94f8e51277e15ee6072fff4e82825fe",
+   "drive_id": "1qS9dci2GUnll9jVCkkKewo0EObRBbRFa",
+   "slot": "cover",
+   "good_for": "dark covers and closing slides; navy text areas; dark all over: white text and the white logo"
+  },
+  {
+   "key": "cover-07.jpg",
+   "file": "img/cover-07.jpg",
+   "kind": "photo",
+   "alt": "Dark office with the neon Digicode logo in the distance",
+   "sha256": "a1b8113735fd0926303f0c56fee6b24d5d653be484bbd6e574dade676eef0cef",
+   "drive_id": "1JUDOH5ehLQl3ehu35nQiayYnRMjRFdTX",
+   "slot": "cover",
+   "good_for": "dark covers, dividers and closing slides; very dark: white text and the white logo"
+  },
+  {
+   "key": "cover-08.jpg",
+   "file": "img/cover-08.jpg",
+   "kind": "photo",
+   "alt": "Large Digicode team group on beanbags in the lounge",
+   "sha256": "f3ba51d113846747d6c4026bdfdc16de06c34a69547272e1fa9ca757908e9573",
+   "drive_id": "1V84qV4RodEjrhcpFPh22_1PD-H9meB1R",
+   "slot": "cover",
+   "good_for": "all-hands, HR and culture decks; about us"
+  },
+  {
+   "key": "cover-09.jpg",
+   "file": "img/cover-09.jpg",
+   "kind": "photo",
+   "alt": "Digicode management team at a meeting table",
+   "sha256": "12800b5ba6926ba29baa328f6f12f97015eb4ee76cabf17646964bcb407db347",
+   "drive_id": "1b5DMHyEK9lV_3Hm7SxB3evj5QaXZ94f9",
+   "slot": "cover",
+   "good_for": "leadership, partnership and proposal covers"
+  },
+  {
+   "key": "cover-team.jpg",
+   "file": "img/cover-team.jpg",
+   "kind": "photo",
+   "alt": "The Digicode team together in the office lounge",
+   "sha256": "81663063f03d0ed2c053086f43d49021e6ababf9fbee464ce8c7382c554b3d94",
+   "drive_id": "1YogyCRz8bobqUIB2oN84DMcjX1xbNFUe",
+   "slot": "cover",
+   "good_for": "about us with the whole team; all-hands and culture"
+  },
+  {
+   "key": "split-03.jpg",
+   "file": "img/split-03.jpg",
+   "kind": "photo",
+   "alt": "Two Digicode engineers laughing over a laptop",
+   "sha256": "305f44d1fdc379d3ce98d762f6842c29db9af98179573fc070cb2906f01875e3",
+   "drive_id": "1gcX-rGjjgmHG_IeoaVH0wnKyMKrLdGWG",
+   "slot": "split",
+   "good_for": "culture, why us, collaboration"
+  },
+  {
+   "key": "split-04.jpg",
+   "file": "img/split-04.jpg",
+   "kind": "photo",
+   "alt": "Hands on a laptop showing dashboards",
+   "sha256": "e69ff3041a4a9c52cdca430b480e980000ca6966bd10a2d9f10c42473e7e5e18",
+   "drive_id": "10K9qDEBfzluhQOOMgS5ek1pWzlfEwqvj",
+   "slot": "split",
+   "good_for": "data, analytics, dashboards, BI (no faces)"
+  },
+  {
+   "key": "split-05.jpg",
+   "file": "img/split-05.jpg",
+   "kind": "photo",
+   "alt": "Digicode designer working across two monitors",
+   "sha256": "d9d4422f3bd4b1c4223e59b90a5a777d1e185da4c4dcc5e447a3c9cc781fbb2d",
+   "drive_id": "1Ob9RGWUy1AEIBDDulbzSFG2ItCsoLx4s",
+   "slot": "split",
+   "good_for": "design, agenda, creative work"
+  },
+  {
+   "key": "split-06.jpg",
+   "file": "img/split-06.jpg",
+   "kind": "photo",
+   "alt": "Two Digicode colleagues laughing at a workstation",
+   "sha256": "d3bb4671594c9668696cc435953c59483784f470ab3e14135eda01c03460c406",
+   "drive_id": "1QNHV2eHet-FSEW4pVeOUvMcjyDtS3X34",
+   "slot": "split",
+   "good_for": "about us, culture, teamwork"
+  },
+  {
+   "key": "split-07.jpg",
+   "file": "img/split-07.jpg",
+   "kind": "photo",
+   "alt": "Engineer in the open-plan office",
+   "sha256": "13c3d30e8e8a27b8c182fa71b7ba57cc25f36a914c86f412163915a31c019938",
+   "drive_id": "1-z1GjZTcqTny2Oq9nT-ambnr6tNwZZqw",
+   "slot": "split",
+   "good_for": "testimonials, everyday work in the office"
+  },
+  {
+   "key": "split-08.jpg",
+   "file": "img/split-08.jpg",
+   "kind": "photo",
+   "alt": "Two colleagues laughing at their monitors",
+   "sha256": "ea5c4b7647f3780fbcad9c3fa549a0000d3d235adb5739f961914b40f8576c68",
+   "drive_id": "1GJK57UFE9wnwdtXJpPxYSOXTeOiA0fuT",
+   "slot": "split",
+   "good_for": "about, culture, why us"
+  },
+  {
+   "key": "split-09.jpg",
+   "file": "img/split-09.jpg",
+   "kind": "photo",
+   "alt": "Four colleagues laughing together at a desk, blue wall",
+   "sha256": "4d18af7e688182cb9c2d96c5585f4ddeb932acf4ab99d2ec717ecc3065811702",
+   "drive_id": "1GMCHU0-0C0oxiJXPRKjw0SK8QoYc_wgB",
+   "slot": "split",
+   "good_for": "team, culture, values, HR"
+  },
+  {
+   "key": "split-10.jpg",
+   "file": "img/split-10.jpg",
+   "kind": "photo",
+   "alt": "Three colleagues discussing work around a monitor",
+   "sha256": "aaa7ddecec226d80560485b9a181476b854e505d5dcc5368e9d3a5e773a8fe2c",
+   "drive_id": "1xYjNw35Z31zcvuQVYaaz6YuC0gU4cn4N",
+   "slot": "split",
+   "good_for": "collaboration, approach, delivery team"
+  },
+  {
+   "key": "split-11.jpg",
+   "file": "img/split-11.jpg",
+   "kind": "photo",
+   "alt": "Team lead with engineers at a laptop by the code wall",
+   "sha256": "80f0603f06d09abcc4967f7a33fade75f927ba4e1a884f657aaf8387ceb82688",
+   "drive_id": "1HgZgVZOi0eN8BrRQ_heXNN8SpOMLyo7p",
+   "slot": "split",
+   "good_for": "approach, process, delivery, team lead"
+  },
+  {
+   "key": "split-12.jpg",
+   "file": "img/split-12.jpg",
+   "kind": "photo",
+   "alt": "Engineer drawing a diagram on a whiteboard",
+   "sha256": "f773491c4d0207e9d7cb99f57c8473e25f52348fdbfdb25cd0b194d551d13a82",
+   "drive_id": "1iPsVs2F7yQr7ixdQXrw0YFRS0WJeJA73",
+   "slot": "split",
+   "good_for": "approach, architecture, discovery, workshops"
+  },
+  {
+   "key": "split-13.jpg",
+   "file": "img/split-13.jpg",
+   "kind": "photo",
+   "alt": "Designer working on UI designs across two monitors",
+   "sha256": "2a9305eeead15ebe0a7b31e689d45a595c84c2d486c6a279b0b04ac1b1ddf34f",
+   "drive_id": "1LNNqtVGsrre0Oq88xmHe8U7pNuWY31qj",
+   "slot": "split",
+   "good_for": "design services, UX/UI, prototyping"
+  },
+  {
+   "key": "split-14.jpg",
+   "file": "img/split-14.jpg",
+   "kind": "photo",
+   "alt": "Four colleagues around a laptop by the code wall",
+   "sha256": "b53c3586fddf01be022ac18e23100380e3d9edadbbc9a69f43d3f7271c058f61",
+   "drive_id": "1MqfnJRx-jlbbUJrSajaUP-yJueMyrzsj",
+   "slot": "split",
+   "good_for": "team, collaboration, internal updates"
+  },
+  {
+   "key": "split-15.jpg",
+   "file": "img/split-15.jpg",
+   "kind": "photo",
+   "alt": "Colleague standing beside an engineer at his desk, talking through work",
+   "sha256": "d9b574c1e00789c07dc7b469684a26bd95a4b0ebd7fd8ce882ed5bb5c78d1172",
+   "drive_id": "1NGM7tOtr2ZxJb0M1kSyP789mSWYIE_s9",
+   "slot": "split",
+   "good_for": "mentoring, support, delivery team"
+  },
+  {
+   "key": "split-16.jpg",
+   "file": "img/split-16.jpg",
+   "kind": "photo",
+   "alt": "Code on a laptop screen next to a Digicode mug",
+   "sha256": "daafce731d5b193970d085818f6127ec8d65b587a53b59c68049ae19608cfdf6",
+   "drive_id": "1deusNZFFtNwKowtW3BwvyuU7K76GX05Z",
+   "slot": "split",
+   "good_for": "software development, technology, techstack"
+  },
+  {
+   "key": "split-17.jpg",
+   "file": "img/split-17.jpg",
+   "kind": "photo",
+   "alt": "Colleagues talking on beanbags in the office lounge",
+   "sha256": "8e6849b80f5fe8c2074b757acc497c394ca3af70a778f98822ede7d133d74c4a",
+   "drive_id": "1EP2y6Dl0KDq3sy-M0qzc3Hn_gp0wvxOi",
+   "slot": "split",
+   "good_for": "culture, values, HR, all-hands"
+  },
+  {
+   "key": "split-18.jpg",
+   "file": "img/split-18.jpg",
+   "kind": "photo",
+   "alt": "Colleagues playing a board game in the green lounge",
+   "sha256": "8d04413efbb9641fc34c1b99af9a50b48a1e6824103bb042aa97240b0213fd31",
+   "drive_id": "1-Z5XMKZ5rCyWIxKFYV_TXp289Yb9zBGH",
+   "slot": "split",
+   "good_for": "culture, team events, HR"
+  },
+  {
+   "key": "split-19.jpg",
+   "file": "img/split-19.jpg",
+   "kind": "photo",
+   "alt": "Colleague with headphones at a laptop by the code wall",
+   "sha256": "967a7c35c489f8b9e8e4107099ac85d8bbc3f9141fcf8e8c9b07c5f7294d216f",
+   "drive_id": "1a-6uJyuUI5cz-Bfw_k23OJW-FyhN8H_L",
+   "slot": "split",
+   "good_for": "support, QA, focused work"
+  },
+  {
+   "key": "split-20.jpg",
+   "file": "img/split-20.jpg",
+   "kind": "photo",
+   "alt": "Team lead and colleagues in a meeting by the window",
+   "sha256": "ee9d3b789d37576469c7c52b7e36c2ae07f3143f3eaa246906a23e91c81ec2e6",
+   "drive_id": "1VipxoFm6hItcX3BYnPLYFgntA5zwDDPk",
+   "slot": "split",
+   "good_for": "discovery, meetings, client workshops"
+  },
+  {
+   "key": "band-02.jpg",
+   "file": "img/band-02.jpg",
+   "kind": "photo",
+   "alt": "Digicode open-plan office with engineers at work",
+   "sha256": "e96e2ca3685627bcb6d5f07c4a4b5e83efb2326e50fc3e858aa93c14518790df",
+   "drive_id": "1tLp69aLvfhrhbQRfbbAR6oljnc8ndOtX",
+   "slot": "band",
+   "good_for": "cover bands and company dividers; the office at work"
+  },
+  {
+   "key": "band-03.jpg",
+   "file": "img/band-03.jpg",
+   "kind": "photo",
+   "alt": "Digicode meeting zone with a code-covered wall",
+   "sha256": "04a0a324f11a9759eb77e64db7dfd7d9c16f8d366a561550d4e35f34926f1027",
+   "drive_id": "1pWW23sz7iveIb-D-HtgO4D3g-GBQrZ_V",
+   "slot": "band",
+   "good_for": "technology dividers; meeting zone with the code wall"
+  },
+  {
+   "key": "band-04.jpg",
+   "file": "img/band-04.jpg",
+   "kind": "photo",
+   "alt": "Overhead view of a team working on laptops around a white desk",
+   "sha256": "cacdaf1ee16a5036cb1d1072cc8629f5ffd88c55eb1a623b5cb0ebfe3f65e0ce",
+   "drive_id": "1tbres3bYCtbBmfkcQ49ERx_KkAVR8lCm",
+   "slot": "band",
+   "good_for": "delivery and process dividers (overhead, no faces)"
+  },
+  {
+   "key": "band-05.jpg",
+   "file": "img/band-05.jpg",
+   "kind": "photo",
+   "alt": "Engineers at their desks in the open-plan office",
+   "sha256": "150031c4ba43e977501302c2b6149d2483023d0ba778fb92cbf7d987e99d61c5",
+   "drive_id": "1pBE6yvVl3u-e1Oz-yGxe8m7b8BJnPJbe",
+   "slot": "band",
+   "good_for": "dividers, delivery, how we work"
+  },
+  {
+   "key": "band-06.jpg",
+   "file": "img/band-06.jpg",
+   "kind": "photo",
+   "alt": "Team working on laptops along a long table",
+   "sha256": "053d96db8747859c40dae1022644349c20df8b89a0d24cc0ed418a3afce449c3",
+   "drive_id": "15nIdWw9Le48BKVWmmWFjGWxxSCL7ItH6",
+   "slot": "band",
+   "good_for": "process, sprints, delivery dividers"
+  },
+  {
+   "key": "band-07.jpg",
+   "file": "img/band-07.jpg",
+   "kind": "photo",
+   "alt": "Open-plan office with engineers at work by the windows",
+   "sha256": "e9e38a84c0a416e793a94aeee1db0998eb8ca9fb5404222573ad8b753a31a5bc",
+   "drive_id": "1rs2tTuyj6CiFXkUjMfn-ojZeNlhYez-j",
+   "slot": "band",
+   "good_for": "about, company dividers"
+  },
+  {
+   "key": "band-08.jpg",
+   "file": "img/band-08.jpg",
+   "kind": "photo",
+   "alt": "Digicode logo wall with the photo tree",
+   "sha256": "94958a04f65e45f967c71b103faec2027457e41fafaf02dbe587968f79098fdb",
+   "drive_id": "1jSQK-4IKnt3949TMo5UToudTLwEH_CVv",
+   "slot": "band",
+   "good_for": "company and about dividers, closing bands"
+  },
+  {
+   "key": "band-09.jpg",
+   "file": "img/band-09.jpg",
+   "kind": "photo",
+   "alt": "Meeting zone with the code-covered wall, no people",
+   "sha256": "a798f37dcf0edbdc4ee94f67ebb783ec7bd5871c995659377a7b21b36fe12720",
+   "drive_id": "1B37cmizP_IXktYXDB8aChhCqbbr8TFhG",
+   "slot": "band",
+   "good_for": "technology and proof dividers"
+  },
+  {
+   "key": "band-10.jpg",
+   "file": "img/band-10.jpg",
+   "kind": "photo",
+   "alt": "Team meeting around a table by the code wall",
+   "sha256": "525732acc247d9a378afffa4c9ca48033fe1b2f80584314c1d58e2c317aa1566",
+   "drive_id": "1N57rfySfH8wR2t-GwedzwP1SHdXwOR7o",
+   "slot": "band",
+   "good_for": "approach, workshops, together dividers"
   },
   {
    "key": "badge-clutch.png",
@@ -46,7 +426,9 @@
    "kind": "badge",
    "alt": "Clutch Top Company badge",
    "sha256": "910d7f9853fa22c98e46c531df23743807c6b4d915acb903c9af60705aa28cdc",
-   "drive_id": "1fyXsT67C2r8w0kx7gKjKVteao5JlC2sF"
+   "drive_id": "1fyXsT67C2r8w0kx7gKjKVteao5JlC2sF",
+   "slot": "credentials",
+   "good_for": ""
   },
   {
    "key": "badge-designrush.svg",
@@ -54,7 +436,9 @@
    "kind": "badge",
    "alt": "DesignRush verified agency",
    "sha256": "2e357df03dc4e9253e12b42029158c4646c1f34d61d1761ae272b902d1a105ef",
-   "drive_id": "133l5UzQAN5vJKeBqcGBi4dXYTZxv7C_f"
+   "drive_id": "133l5UzQAN5vJKeBqcGBi4dXYTZxv7C_f",
+   "slot": "credentials",
+   "good_for": ""
   },
   {
    "key": "badge-google-cloud.svg",
@@ -62,7 +446,9 @@
    "kind": "badge",
    "alt": "Google Cloud Partner",
    "sha256": "b8733267c76390ef0658439b0ab42011e58bc438e8343075243c65ecffbcc0db",
-   "drive_id": "1Y2oZj4jDfn3oi0bwkRCvrvgHDKhCMw3l"
+   "drive_id": "1Y2oZj4jDfn3oi0bwkRCvrvgHDKhCMw3l",
+   "slot": "credentials",
+   "good_for": ""
   },
   {
    "key": "badge-iso-27001.png",
@@ -70,7 +456,9 @@
    "kind": "badge",
    "alt": "ISO 27001 certified badge",
    "sha256": "eedfb36cafd4c1e48804c095090f0104f71bba56d2d21a9c6c7d5b5b225acbb8",
-   "drive_id": "1_se_K4cHvN8SEOd34McHnwnzVai2dkqG"
+   "drive_id": "1_se_K4cHvN8SEOd34McHnwnzVai2dkqG",
+   "slot": "credentials",
+   "good_for": ""
   },
   {
    "key": "badge-iso-27701.png",
@@ -78,7 +466,9 @@
    "kind": "badge",
    "alt": "ISO 27701 certified badge",
    "sha256": "2a0340a29dcc4df047a361e1d9472d2b571ff570aeda1e28121cddad1f23a61a",
-   "drive_id": "12vByqFr4cJBMixTR0GZOztfKcQR8Pp_T"
+   "drive_id": "12vByqFr4cJBMixTR0GZOztfKcQR8Pp_T",
+   "slot": "credentials",
+   "good_for": ""
   },
   {
    "key": "badge-microsoft.png",
@@ -86,7 +476,9 @@
    "kind": "badge",
    "alt": "Microsoft Certified Professional",
    "sha256": "fccdf34822e671f5a77a46a71ef7b9a78d91a656c2601deeb1056bd98e82929e",
-   "drive_id": "1_TJt7wSuDfJptCfl1Y-_sd5Vv8bIzP40"
+   "drive_id": "1_TJt7wSuDfJptCfl1Y-_sd5Vv8bIzP40",
+   "slot": "credentials",
+   "good_for": ""
   },
   {
    "key": "badge-microsoft.svg",
@@ -94,7 +486,9 @@
    "kind": "badge",
    "alt": "Microsoft Certified Professional",
    "sha256": "8a35170076a2a8459def6915f09570ccff48b0b3fa3fa2cd9cc33b8c42332172",
-   "drive_id": "1KmtLGG4Z2mAyR18J2m6AE1izM6PnWcm_"
+   "drive_id": "1KmtLGG4Z2mAyR18J2m6AE1izM6PnWcm_",
+   "slot": "credentials",
+   "good_for": ""
   },
   {
    "key": "illustration-developer-dark.svg",
@@ -102,7 +496,9 @@
    "kind": "illustration",
    "alt": "Illustration of a developer in headphones surrounded by code",
    "sha256": "579678e952e68d00aede32afdfdcd5df8028477d72b7f2305e2ac691b9208865",
-   "drive_id": "1Rl2560eBdUZedzkbD5Jq3aEG5V3TfJso"
+   "drive_id": "1Rl2560eBdUZedzkbD5Jq3aEG5V3TfJso",
+   "slot": "divider",
+   "good_for": ""
   },
   {
    "key": "illustration-lightbulb-dark.svg",
@@ -110,7 +506,9 @@
    "kind": "illustration",
    "alt": "Illustration of a person balancing on a giant lightbulb",
    "sha256": "76e4d9821e51df5304978035872f4b39bd7557f20424bebb47e9a9b5d604aa2a",
-   "drive_id": "1tboenH_mjbJY196a_z2YAn93YuJTX6vP"
+   "drive_id": "1tboenH_mjbJY196a_z2YAn93YuJTX6vP",
+   "slot": "divider",
+   "good_for": ""
   },
   {
    "key": "illustration-mission-dark.svg",
@@ -118,7 +516,9 @@
    "kind": "illustration",
    "alt": "Illustration: three colleagues at a park bench, one aiming an arrow at a target",
    "sha256": "550283aed14f353eb9b4e54bfbabf1ddf68830a6538a4f553b52c0bd8feac72d",
-   "drive_id": "16Lsy3dpIJ-urvZ3Py8zUGTzogZbBiGn0"
+   "drive_id": "16Lsy3dpIJ-urvZ3Py8zUGTzogZbBiGn0",
+   "slot": "divider",
+   "good_for": ""
   },
   {
    "key": "illustration-mission.svg",
@@ -126,7 +526,9 @@
    "kind": "illustration",
    "alt": "Illustration: three colleagues at a park bench, one aiming an arrow at a target",
    "sha256": "4d787b677c2bf0fe1906cab917c8949bb09abecced6f2d7c5f991b59b0c38a05",
-   "drive_id": "1xdBrBhOK_8ycj3BUkIhFNarFW9D0eh0r"
+   "drive_id": "1xdBrBhOK_8ycj3BUkIhFNarFW9D0eh0r",
+   "slot": "divider",
+   "good_for": ""
   },
   {
    "key": "illustration-results-dark.svg",
@@ -134,7 +536,9 @@
    "kind": "illustration",
    "alt": "Illustration of laptops showing charts and results",
    "sha256": "36b8d9aabd3faa4b593b8619cdb6f4fdd910142a1f2386eeecda2d9d31c4fab4",
-   "drive_id": "1XKzWdeW1o3KmXTCnKD17ScVbsMBo3IUV"
+   "drive_id": "1XKzWdeW1o3KmXTCnKD17ScVbsMBo3IUV",
+   "slot": "divider",
+   "good_for": ""
   },
   {
    "key": "illustration-video-call-dark.svg",
@@ -142,7 +546,9 @@
    "kind": "illustration",
    "alt": "Illustration of a video call between two people",
    "sha256": "f36a8e2f9af4b45316a30ff758a2fe3f76b9d4b8ce381a39b236fda34a207bbc",
-   "drive_id": "1uAcO_irY_2XQ4-H-pFSStcsCLq3yyjXc"
+   "drive_id": "1uAcO_irY_2XQ4-H-pFSStcsCLq3yyjXc",
+   "slot": "divider",
+   "good_for": ""
   },
   {
    "key": "logo-blue-3D5DA9.svg",
@@ -150,7 +556,9 @@
    "kind": "logo",
    "alt": "Digicode",
    "sha256": "659f6a782a70ba63304c9dd7bdfbda77e99fa2a16d2faefe4cbdff39fe364fdd",
-   "drive_id": "1RPO3IrygFpxsRkH-mhrLbyZ3cqGe1-NU"
+   "drive_id": "1RPO3IrygFpxsRkH-mhrLbyZ3cqGe1-NU",
+   "slot": "logo",
+   "good_for": ""
   },
   {
    "key": "logo-white.svg",
@@ -158,7 +566,9 @@
    "kind": "logo",
    "alt": "Digicode",
    "sha256": "038c43454e8f23fa68d5ba74a6c9f5be14f04622e37cf78c295a5102a99464f8",
-   "drive_id": "1j_Wx2NfiJ_Uwjc0Nsd12T2aAloq832D_"
+   "drive_id": "1j_Wx2NfiJ_Uwjc0Nsd12T2aAloq832D_",
+   "slot": "logo",
+   "good_for": ""
   },
   {
    "key": "partner-gradient0.png",
@@ -166,7 +576,9 @@
    "kind": "badge",
    "alt": "Gradient0",
    "sha256": "c8403dddec3327439c1af5bcd0c87793351e01f44a29721af6b869548c749266",
-   "drive_id": "1g5SdethQrCo0GlqyyvZDlSN7e60i8VCF"
+   "drive_id": "1g5SdethQrCo0GlqyyvZDlSN7e60i8VCF",
+   "slot": "partners",
+   "good_for": ""
   },
   {
    "key": "partner-hex.png",
@@ -174,7 +586,9 @@
    "kind": "badge",
    "alt": "HEX: IT Experts. On Demand.",
    "sha256": "cd25b540156427f40f8b0cc118af5fc7340905b52241f557fa64cda87dd7fb5c",
-   "drive_id": "1lMHtZrsj9a28wWKLjwtPPNRzem363Y6X"
+   "drive_id": "1lMHtZrsj9a28wWKLjwtPPNRzem363Y6X",
+   "slot": "partners",
+   "good_for": ""
   },
   {
    "key": "partner-ibm.png",
@@ -182,7 +596,9 @@
    "kind": "badge",
    "alt": "IBM",
    "sha256": "3eeb7a491245c4c9be54e5b28067dcd30e15adfda51a1fba8df38404121476cc",
-   "drive_id": "1vpubt96tdQb9eWwtK8RLe9Twhu-kawYP"
+   "drive_id": "1vpubt96tdQb9eWwtK8RLe9Twhu-kawYP",
+   "slot": "partners",
+   "good_for": ""
   },
   {
    "key": "partner-modular-data.png",
@@ -190,7 +606,9 @@
    "kind": "badge",
    "alt": "ModularData",
    "sha256": "330ce5476fe6938c10ab0f297573c2f76dc88ae9add43f3616e778d36a215e1f",
-   "drive_id": "1BG6oc-X31rl_Qoy6WwZ95xoA5ZZnisSQ"
+   "drive_id": "1BG6oc-X31rl_Qoy6WwZ95xoA5ZZnisSQ",
+   "slot": "partners",
+   "good_for": ""
   },
   {
    "key": "partner-polygran.png",
@@ -198,7 +616,9 @@
    "kind": "badge",
    "alt": "Polygran",
    "sha256": "dd0604b3dd49ff1641a6816e465544af644e4dd3942f541e3badfac3393c5306",
-   "drive_id": "1mjgbJHrXaPaGBvZDgMtzYu_HV5KOn6a7"
+   "drive_id": "1mjgbJHrXaPaGBvZDgMtzYu_HV5KOn6a7",
+   "slot": "partners",
+   "good_for": ""
   },
   {
    "key": "partner-secutor.png",
@@ -206,7 +626,9 @@
    "kind": "badge",
    "alt": "Secutor",
    "sha256": "a9f2d45216764c8d4356e0ae6cae0865c65754463d60ee61fd4ffc09ef4c97fe",
-   "drive_id": "1643t_oHWs_avS66pqKuH_eTnh97ZiS3H"
+   "drive_id": "1643t_oHWs_avS66pqKuH_eTnh97ZiS3H",
+   "slot": "partners",
+   "good_for": ""
   }
  ]
 }
