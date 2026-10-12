@@ -1,9 +1,10 @@
 # Digicode deck assets (public)
 
 Public images for Digicode presentations built with Gemini (the HTML Gem). Gemini Canvas can only show
-images it can fetch from a public URL, so the deck slides link here, through jsDelivr:
+images it can fetch from a public URL, so the deck slides link here, through GitHub Pages
+(jsDelivr refuses repos over 50 MB):
 
-    https://cdn.jsdelivr.net/gh/haievyio/deck-assets@v3/img/logo-white.svg
+    https://haievyio.github.io/deck-assets/img/logo-white.svg
 
 **All deck images** (decided 2026-10-12): logos, badges, icons, illustrations (deck set and SVG
 library), office photos, leadership portraits and case mockups. Never Diger, and never NDA or
