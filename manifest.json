@@ -1,0 +1,212 @@
+{
+ "images": [
+  {
+   "key": "gratitude-jar/laptop-jar-home.jpg",
+   "file": "img/case-gratitude-jar-laptop-jar-home.jpg",
+   "kind": "case-image",
+   "alt": "Thankee Jar on a laptop: the team jar filling with thank-you notes",
+   "sha256": "5b1dec960c8e27dbd40c14664f7d1947ff1bcea69bfffcbf3df91bfe5a77d8c9",
+   "drive_id": "1XfM3lu-HovNkKahuMS8BlrPLyeR4UVLK"
+  },
+  {
+   "key": "hospice-care/phone-orders-kanban.jpg",
+   "file": "img/case-hospice-care-phone-orders-kanban.jpg",
+   "kind": "case-image",
+   "alt": "Hospice Source ordering app on a phone: orders Kanban board",
+   "sha256": "42b413a35b1b9e944865bf9cc3ffd2af5574581d323a9897905759b4f6459893",
+   "drive_id": "1Uzv6z0mNp77q7cP_oA0QkDKsKNjj-BLL"
+  },
+  {
+   "key": "koddi/macbook-property-page.png",
+   "file": "img/case-koddi-macbook-property-page.png",
+   "kind": "case-image",
+   "alt": "Koddi property page on a MacBook",
+   "sha256": "acfe87945298090803103d9d63bf22d0f19053fcca9821c7451f56b8e4474a91",
+   "drive_id": "11cHt7cL-IzpJucPznQ_tIHgP3bKDYBb-"
+  },
+  {
+   "key": "paydownhero/phone-car-loans.jpg",
+   "file": "img/case-paydownhero-phone-car-loans.jpg",
+   "kind": "case-image",
+   "alt": "PayDownHero app on a phone: car loans overview",
+   "sha256": "b817de369024dd9da6e87013666e868a7d64c9edadb6226ee488389dbf65cd13",
+   "drive_id": "1uRLUKvpUOM6GGZz9w1Dx9vHGPzmRP9C-"
+  },
+  {
+   "key": "r1/iphone-patient-record.png",
+   "file": "img/case-r1-iphone-patient-record.png",
+   "kind": "case-image",
+   "alt": "RapidOne staff app on an iPhone: patient medical record",
+   "sha256": "9008618746303305333f76814f9aed3cfdcf950691214a1eab2f2bce812c513f",
+   "drive_id": "10eZd72lbuAHOZppAGu_2CXtUMSjxYerA"
+  },
+  {
+   "key": "badge-clutch.png",
+   "file": "img/badge-clutch.png",
+   "kind": "badge",
+   "alt": "Clutch Top Company badge",
+   "sha256": "910d7f9853fa22c98e46c531df23743807c6b4d915acb903c9af60705aa28cdc",
+   "drive_id": "1fyXsT67C2r8w0kx7gKjKVteao5JlC2sF"
+  },
+  {
+   "key": "badge-designrush.svg",
+   "file": "img/badge-designrush.svg",
+   "kind": "badge",
+   "alt": "DesignRush verified agency",
+   "sha256": "2e357df03dc4e9253e12b42029158c4646c1f34d61d1761ae272b902d1a105ef",
+   "drive_id": "133l5UzQAN5vJKeBqcGBi4dXYTZxv7C_f"
+  },
+  {
+   "key": "badge-google-cloud.svg",
+   "file": "img/badge-google-cloud.svg",
+   "kind": "badge",
+   "alt": "Google Cloud Partner",
+   "sha256": "b8733267c76390ef0658439b0ab42011e58bc438e8343075243c65ecffbcc0db",
+   "drive_id": "1Y2oZj4jDfn3oi0bwkRCvrvgHDKhCMw3l"
+  },
+  {
+   "key": "badge-iso-27001.png",
+   "file": "img/badge-iso-27001.png",
+   "kind": "badge",
+   "alt": "ISO 27001 certified badge",
+   "sha256": "eedfb36cafd4c1e48804c095090f0104f71bba56d2d21a9c6c7d5b5b225acbb8",
+   "drive_id": "1_se_K4cHvN8SEOd34McHnwnzVai2dkqG"
+  },
+  {
+   "key": "badge-iso-27701.png",
+   "file": "img/badge-iso-27701.png",
+   "kind": "badge",
+   "alt": "ISO 27701 certified badge",
+   "sha256": "2a0340a29dcc4df047a361e1d9472d2b571ff570aeda1e28121cddad1f23a61a",
+   "drive_id": "12vByqFr4cJBMixTR0GZOztfKcQR8Pp_T"
+  },
+  {
+   "key": "badge-microsoft.png",
+   "file": "img/badge-microsoft.png",
+   "kind": "badge",
+   "alt": "Microsoft Certified Professional",
+   "sha256": "fccdf34822e671f5a77a46a71ef7b9a78d91a656c2601deeb1056bd98e82929e",
+   "drive_id": "1_TJt7wSuDfJptCfl1Y-_sd5Vv8bIzP40"
+  },
+  {
+   "key": "badge-microsoft.svg",
+   "file": "img/badge-microsoft.svg",
+   "kind": "badge",
+   "alt": "Microsoft Certified Professional",
+   "sha256": "8a35170076a2a8459def6915f09570ccff48b0b3fa3fa2cd9cc33b8c42332172",
+   "drive_id": "1KmtLGG4Z2mAyR18J2m6AE1izM6PnWcm_"
+  },
+  {
+   "key": "illustration-developer-dark.svg",
+   "file": "img/illustration-developer-dark.svg",
+   "kind": "illustration",
+   "alt": "Illustration of a developer in headphones surrounded by code",
+   "sha256": "579678e952e68d00aede32afdfdcd5df8028477d72b7f2305e2ac691b9208865",
+   "drive_id": "1Rl2560eBdUZedzkbD5Jq3aEG5V3TfJso"
+  },
+  {
+   "key": "illustration-lightbulb-dark.svg",
+   "file": "img/illustration-lightbulb-dark.svg",
+   "kind": "illustration",
+   "alt": "Illustration of a person balancing on a giant lightbulb",
+   "sha256": "76e4d9821e51df5304978035872f4b39bd7557f20424bebb47e9a9b5d604aa2a",
+   "drive_id": "1tboenH_mjbJY196a_z2YAn93YuJTX6vP"
+  },
+  {
+   "key": "illustration-mission-dark.svg",
+   "file": "img/illustration-mission-dark.svg",
+   "kind": "illustration",
+   "alt": "Illustration: three colleagues at a park bench, one aiming an arrow at a target",
+   "sha256": "550283aed14f353eb9b4e54bfbabf1ddf68830a6538a4f553b52c0bd8feac72d",
+   "drive_id": "16Lsy3dpIJ-urvZ3Py8zUGTzogZbBiGn0"
+  },
+  {
+   "key": "illustration-mission.svg",
+   "file": "img/illustration-mission.svg",
+   "kind": "illustration",
+   "alt": "Illustration: three colleagues at a park bench, one aiming an arrow at a target",
+   "sha256": "4d787b677c2bf0fe1906cab917c8949bb09abecced6f2d7c5f991b59b0c38a05",
+   "drive_id": "1xdBrBhOK_8ycj3BUkIhFNarFW9D0eh0r"
+  },
+  {
+   "key": "illustration-results-dark.svg",
+   "file": "img/illustration-results-dark.svg",
+   "kind": "illustration",
+   "alt": "Illustration of laptops showing charts and results",
+   "sha256": "36b8d9aabd3faa4b593b8619cdb6f4fdd910142a1f2386eeecda2d9d31c4fab4",
+   "drive_id": "1XKzWdeW1o3KmXTCnKD17ScVbsMBo3IUV"
+  },
+  {
+   "key": "illustration-video-call-dark.svg",
+   "file": "img/illustration-video-call-dark.svg",
+   "kind": "illustration",
+   "alt": "Illustration of a video call between two people",
+   "sha256": "f36a8e2f9af4b45316a30ff758a2fe3f76b9d4b8ce381a39b236fda34a207bbc",
+   "drive_id": "1uAcO_irY_2XQ4-H-pFSStcsCLq3yyjXc"
+  },
+  {
+   "key": "logo-blue-3D5DA9.svg",
+   "file": "img/logo-blue-3D5DA9.svg",
+   "kind": "logo",
+   "alt": "Digicode",
+   "sha256": "659f6a782a70ba63304c9dd7bdfbda77e99fa2a16d2faefe4cbdff39fe364fdd",
+   "drive_id": "1RPO3IrygFpxsRkH-mhrLbyZ3cqGe1-NU"
+  },
+  {
+   "key": "logo-white.svg",
+   "file": "img/logo-white.svg",
+   "kind": "logo",
+   "alt": "Digicode",
+   "sha256": "038c43454e8f23fa68d5ba74a6c9f5be14f04622e37cf78c295a5102a99464f8",
+   "drive_id": "1j_Wx2NfiJ_Uwjc0Nsd12T2aAloq832D_"
+  },
+  {
+   "key": "partner-gradient0.png",
+   "file": "img/partner-gradient0.png",
+   "kind": "badge",
+   "alt": "Gradient0",
+   "sha256": "c8403dddec3327439c1af5bcd0c87793351e01f44a29721af6b869548c749266",
+   "drive_id": "1g5SdethQrCo0GlqyyvZDlSN7e60i8VCF"
+  },
+  {
+   "key": "partner-hex.png",
+   "file": "img/partner-hex.png",
+   "kind": "badge",
+   "alt": "HEX: IT Experts. On Demand.",
+   "sha256": "cd25b540156427f40f8b0cc118af5fc7340905b52241f557fa64cda87dd7fb5c",
+   "drive_id": "1lMHtZrsj9a28wWKLjwtPPNRzem363Y6X"
+  },
+  {
+   "key": "partner-ibm.png",
+   "file": "img/partner-ibm.png",
+   "kind": "badge",
+   "alt": "IBM",
+   "sha256": "3eeb7a491245c4c9be54e5b28067dcd30e15adfda51a1fba8df38404121476cc",
+   "drive_id": "1vpubt96tdQb9eWwtK8RLe9Twhu-kawYP"
+  },
+  {
+   "key": "partner-modular-data.png",
+   "file": "img/partner-modular-data.png",
+   "kind": "badge",
+   "alt": "ModularData",
+   "sha256": "330ce5476fe6938c10ab0f297573c2f76dc88ae9add43f3616e778d36a215e1f",
+   "drive_id": "1BG6oc-X31rl_Qoy6WwZ95xoA5ZZnisSQ"
+  },
+  {
+   "key": "partner-polygran.png",
+   "file": "img/partner-polygran.png",
+   "kind": "badge",
+   "alt": "Polygran",
+   "sha256": "dd0604b3dd49ff1641a6816e465544af644e4dd3942f541e3badfac3393c5306",
+   "drive_id": "1mjgbJHrXaPaGBvZDgMtzYu_HV5KOn6a7"
+  },
+  {
+   "key": "partner-secutor.png",
+   "file": "img/partner-secutor.png",
+   "kind": "badge",
+   "alt": "Secutor",
+   "sha256": "a9f2d45216764c8d4356e0ae6cae0865c65754463d60ee61fd4ffc09ef4c97fe",
+   "drive_id": "1643t_oHWs_avS66pqKuH_eTnh97ZiS3H"
+  }
+ ]
+}
