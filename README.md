@@ -15,3 +15,10 @@ Google Drive is the source. Don't edit images here: change them in Drive, then r
 `manifest.json` lists each image with its Drive id and checksum.
 
 Temporary home under a personal account; it moves to `digicode-hq` later (the URLs will change then).
+
+## Deck viewer
+
+https://haievyio.github.io/deck-assets/viewer/ shows a deck from the HTML Gem and exports it: paste the
+deck (Gemini Canvas → Share → Copy contents) or drop the downloaded HTML. Export PDF opens the print
+dialog (one slide per page); Export PPTX saves one picture per slide with the sources as speaker notes
+(Google Slides opens it from Drive). Both stay off while the deck's guard reports a problem.

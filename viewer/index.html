@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Digicode Deck Viewer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#131A2E;--blue:#3D5DA9;--muted:#F4F6F9;--rule:#E4E7ED;--sub:#5A6172;--red:#D93025}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--muted);color:var(--ink);font:400 16px/1.5 Raleway,Arial,sans-serif}
+  header{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:12px 16px;background:#FFFFFF;border-bottom:1px solid var(--rule);position:sticky;top:0;z-index:2}
+  h1{font-size:18px;font-weight:700;margin:0 auto 0 0}
+  button{font:600 15px Raleway,Arial,sans-serif;border-radius:8px;padding:10px 16px;min-height:44px;cursor:pointer;border:1px solid var(--blue);background:#FFFFFF;color:var(--blue)}
+  button.primary{background:var(--blue);color:#FFFFFF}
+  button:disabled{opacity:.45;cursor:not-allowed}
+  button:focus-visible,textarea:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+  #status{width:100%;margin:0;font-size:14px;color:var(--sub)}
+  #status.bad{color:var(--red);font-weight:600}
+  #start{max-width:880px;margin:40px auto;padding:0 16px}
+  #start p{color:var(--sub)}
+  textarea{width:100%;height:280px;padding:12px;border:1px solid #C7CCD7;border-radius:8px;font:13px/1.4 ui-monospace,Menlo,monospace;background:#FFFFFF}
+  #drop{margin-top:12px;padding:20px;border:2px dashed #C7CCD7;border-radius:8px;text-align:center;color:var(--sub);background:#FFFFFF}
+  #drop.over{border-color:var(--blue);color:var(--blue)}
+  iframe{display:none;width:100%;border:0;height:calc(100vh - 120px);background:#0B1020}
+</style>
+</head>
+<body>
+<header>
+  <h1>Digicode Deck Viewer</h1>
+  <button id="pdf" disabled>Export PDF</button>
+  <button id="pptx" class="primary" disabled>Export PPTX</button>
+  <button id="again" hidden>Load another deck</button>
+  <p id="status" role="status">Paste a deck from the Digicode Deck Builder Gem, or drop its HTML file.</p>
+</header>
+<main id="start">
+  <p>In Gemini: open the deck's Canvas → Share → <b>Copy contents</b>, then paste it here. Or Download the HTML and drop the file below.</p>
+  <label for="paste" style="font-weight:600">Deck HTML</label>
+  <textarea id="paste" placeholder="Paste the whole deck here (starts with &lt;!doctype html&gt;)"></textarea>
+  <div id="drop">Drop the deck's .html file here, or <label style="color:var(--blue);text-decoration:underline;cursor:pointer">choose a file<input id="file" type="file" accept=".html,.htm,text/html" hidden></label></div>
+  <p style="margin-top:16px"><button id="show" class="primary">Show slides</button></p>
+  <p style="font-size:14px">PPTX: one picture per slide, with the slide's sources as speaker notes. For Google Slides, upload the PPTX to Drive and open it with Google Slides. PDF: the print dialog opens; choose Save as PDF.</p>
+</main>
+<iframe id="view" title="Deck preview"></iframe>
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var LIBS = ["https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.js",
+              "https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"];
+  var frame = $("view"), problems = 0;
+
+  function status(text, bad) { $("status").textContent = text; $("status").className = bad ? "bad" : ""; }
+
+  function show(html) {
+    if (!/<section[\s>]/i.test(html)) { status("That doesn't look like a deck: no slides found.", true); return; }
+    $("start").hidden = true; frame.style.display = "block"; $("again").hidden = false;
+    frame.onload = function () {
+      setTimeout(function () {   // the deck's guard runs on load; give images and fonts a moment
+        var doc = frame.contentDocument, n = doc.querySelectorAll(".deck > section, body > section").length;
+        var guard = doc.getElementById("guard");
+        problems = guard ? 1 : 0;
+        if (!doc.querySelector('script') || !/Not ready to share/.test(doc.documentElement.innerHTML)) {
+          problems = 1; status("This deck has no guard script, so it can't be checked. Rebuild it with the Gem.", true);
+        } else if (guard) {
+          status(guard.textContent + " Fix these in Gemini before exporting.", true);
+        } else {
+          status(n + " slides. The guard found nothing.");
+        }
+        $("pdf").disabled = $("pptx").disabled = problems > 0;
+      }, 1500);
+    };
+    frame.srcdoc = html;
+  }
+
+  $("show").onclick = function () { show($("paste").value.trim()); };
+  $("file").onchange = function (e) { read(e.target.files[0]); };
+  function read(f) { if (!f) return; var r = new FileReader(); r.onload = function () { show(String(r.result)); }; r.readAsText(f); }
+  var drop = $("drop");
+  drop.ondragover = function (e) { e.preventDefault(); drop.className = "over"; };
+  drop.ondragleave = function () { drop.className = ""; };
+  drop.ondrop = function (e) { e.preventDefault(); drop.className = ""; read(e.dataTransfer.files[0]); };
+  $("again").onclick = function () { location.reload(); };
+
+  $("pdf").onclick = function () { frame.contentWindow.focus(); frame.contentWindow.print(); };
+
+  function load(win, src) {
+    return new Promise(function (ok, fail) {
+      var s = win.document.createElement("script"); s.src = src; s.onload = ok;
+      s.onerror = function () { fail(new Error("couldn't load " + src)); }; win.document.head.appendChild(s);
+    });
+  }
+
+  $("pptx").onclick = async function () {
+    var win = frame.contentWindow, doc = frame.contentDocument, btn = $("pptx");
+    btn.disabled = true;
+    try {
+      status("Preparing the export…");
+      if (!win.htmlToImage) await load(win, LIBS[0]);
+      if (!win.PptxGenJS) await load(win, LIBS[1]);
+      await doc.fonts.ready;
+      var root = doc.documentElement, z = root.style.getPropertyValue("--z");
+      root.style.setProperty("--z", "1");        // capture at full size
+      var slides = [].slice.call(doc.querySelectorAll(".deck > section"));
+      var pptx = new win.PptxGenJS(); pptx.layout = "LAYOUT_WIDE";
+      pptx.title = doc.title || "Digicode deck";
+      for (var i = 0; i < slides.length; i++) {
+        status("Exporting slide " + (i + 1) + " of " + slides.length + "…");
+        var data = await win.htmlToImage.toJpeg(slides[i], { quality: 0.92, width: 1920, height: 1080, pixelRatio: 1,
+          filter: function (n) { return n.tagName !== "ASIDE"; } });
+        var s = pptx.addSlide();
+        s.addImage({ data: data, x: 0, y: 0, w: 13.333, h: 7.5 });
+        var aside = slides[i].querySelector("aside");
+        if (aside && aside.textContent.trim()) s.addNotes(aside.textContent.trim());
+      }
+      root.style.setProperty("--z", z);
+      await pptx.writeFile({ fileName: (doc.title || "Digicode deck").replace(/[\\/:*?"<>|]/g, "") + ".pptx" });
+      status("PPTX saved: " + slides.length + " slides.");
+    } catch (e) {
+      status("Export failed: " + (e && e.message || e) + ". Try again, or use Export PDF.", true);
+    }
+    btn.disabled = false;
+  };
+})();
+</script>
+</body></html>
